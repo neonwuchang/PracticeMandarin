@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Webpage</title>
+  <link rel="stylesheet" href="homestyle.css">
+</head>
+<body>
+  <div class="grid">
+    <div class="grid-item tile" style="background-color:rgb(230, 96, 75)"></div>
+    <div class="grid-item button" onclick="openFCPage()">Flashcards</div> 
+    <div class= "grid-item imgframe" style=" background-color: rgb(255, 153, 116);" >
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXixJhK0iHmxOFySaMVJrfJtIDsdhKm-DgqbOzqO1ynok-JgqLALPu69OwTDZ7niv1xQs&usqp=CAU" class="grid-item" alt="Image 2">
+   </div> 
+    <div class= "grid-item tile" style=" background-color: rgba(255, 237, 223, 0.993); ">
+      <div class="typed-out">Practice Mandarin!</div>
+    </div>
+    <div class="grid-item tile" style="background-color:rgb(128, 8, 42)"></div>
+    <div class= "grid-item imgframe" style="background-color: rgb(255, 255, 255)">
+        <img id="dynamic-image" class="grid-item" src="" alt=" A Chinese Character, it's Pinyin, and Meaning" style="max-height: 90%; object-fit: scale-down;">
+    </div>
+    <div class="grid-item button" onclick="openQuizPage()">Quiz</div>
+    <div class= "grid-item imgframe" style=" background-color: rgb(255, 135, 44);" >
+        <img src="https://img.freepik.com/premium-photo/beautiful-mountain-landscape-with-gardens-chinese-temple-generative-ai_123447-13784.jpg" class="grid-item" alt="Image 1">
+    </div>
+    <div class="grid-item tile" style="background-color: rgba(211, 42, 56, 0.852)"></div>
+    </div>
+  <script src="homescript.js"></script>
+</body>
+</html>

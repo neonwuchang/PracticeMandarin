@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Selection</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        h1 {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            margin-left: 30px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 5px;
+        }
+        .button {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: radial-gradient(circle, rgba(200, 231, 129, 0.821), rgba(62, 151, 71, 0.6));
+            border-radius: 30px;
+            margin: 50px;
+            cursor: pointer;
+            color: rgb(14, 0, 0);
+            font-size: 36px;
+            font-weight: bold;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+            height: 80%;
+            min-height: 200px;
+            min-width: 300px;
+        }
+        
+        .button:hover {
+            transform: translateY(-10px);
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Which Topic Do You Want To Quiz Yourself On?</h1>
+        <div class="grid">
+            <div class="button" onclick="openForm()">Elements</div>
+            <div class="button">Directions</div>
+            <div class="button">Food</div>
+            <div class="button">Countries</div>
+        </div>
+    </div>
+    <script>
+        /* google form on clicking quiz*/
+        function openForm() {
+            window.open('https://docs.google.com/forms/d/e/1FAIpQLScn5UZpc02MYREGMVgYGEWv7w4POLgYHiYWII_0-IgO_T9MsA/viewform?usp=sf_link', '_blank');
+        }
+    </script>
+</body>
+</html>

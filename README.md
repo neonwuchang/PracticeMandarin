@@ -16,3 +16,10 @@ MVP: Simple website to practice Mandarin for beginners
      - To do: <Improvement> Use something other than Google Forms
 
 Goal: Create a fully fledged host-able website
+
+## Current Look:
+
+![Image of homepage for bigger screen, with annotations about features](homepage1.png)
+![Image of homepage for smaller screen](homepage2.png)
+![2 Images of flashcard page, with annotations about features](flashcardspage.png)
+![Image of quiz page](quizpage.png)

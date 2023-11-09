@@ -1,5 +1,5 @@
 # PracticeMandarin
-Simple website to practice Mandarin for beginners
+MVP: Simple website to practice Mandarin for beginners
 
  ## Features
   
@@ -15,3 +15,4 @@ Simple website to practice Mandarin for beginners
  - Practice Quizzes
      - To do: <Improvement> Use something other than Google Forms
 
+Goal: Create a fully fledged website

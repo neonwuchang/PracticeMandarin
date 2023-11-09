@@ -15,4 +15,4 @@ MVP: Simple website to practice Mandarin for beginners
  - Practice Quizzes
      - To do: <Improvement> Use something other than Google Forms
 
-Goal: Create a fully fledged website
+Goal: Create a fully fledged host-able website

@@ -19,7 +19,7 @@ Goal: Create a fully fledged host-able website
 
 ## Current Look:
 
-![Image of homepage for bigger screen, with annotations about features](homepage1.png)
-![Image of homepage for smaller screen](homepage2.png)
-![2 Images of flashcard page, with annotations about features](flashcardspage.png)
-![Image of quiz page](quizpage.png)
+![Image of homepage for bigger screen, with annotations about features](images/homepage1.png)
+![Image of homepage for smaller screen](images/homepage2.png)
+![2 Images of flashcard page, with annotations about features](images/flashcardspage.png)
+![Image of quiz page](images/quizpage.png)

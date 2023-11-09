@@ -2,7 +2,7 @@
 MVP: Simple website to practice Mandarin for beginners
 
  ## Features
-  
+ - Adjusts according to device screen size 
  - Flippable flashcards to learn and recognise characters
      - Each time, the set of flashcards is randomly created from a given set of values
      - The number rabges from 1 up to 9

@@ -9,18 +9,18 @@
     /*shuffle img on homepage each time*/
     // Array of image IDs
     var charImages = [
-    "https://github.com/neonwuchang/PracticeMandarin/blob/main/images/char1.png",
-    "https://github.com/neonwuchang/PracticeMandarin/blob/main/images/char2.png",
-    "https://github.com/neonwuchang/PracticeMandarin/blob/main/images/char3.png",
-    "https://github.com/neonwuchang/PracticeMandarin/blob/main/images/char4.png",
-    "https://github.com/neonwuchang/PracticeMandarin/blob/main/images/char5.png",
-    "https://github.com/neonwuchang/PracticeMandarin/blob/main/images/char6.png",
-    "https://github.com/neonwuchang/PracticeMandarin/blob/main/images/char7.png",
-    "https://github.com/neonwuchang/PracticeMandarin/blob/main/images/char8.png"
+    "https://raw.githubusercontent.com/neonwuchang/PracticeMandarin/main/images/char1.png",
+    "https://raw.githubusercontent.com/neonwuchang/PracticeMandarin/main/images/char2.png",
+    "https://raw.githubusercontent.com/neonwuchang/PracticeMandarin/main/images/char3.png",
+    "https://raw.githubusercontent.com/neonwuchang/PracticeMandarin/main/images/char4.png",
+    "https://raw.githubusercontent.com/neonwuchang/PracticeMandarin/main/images/char5.png",
+    "https://raw.githubusercontent.com/neonwuchang/PracticeMandarin/main/images/char6.png",
+    "https://raw.githubusercontent.com/neonwuchang/PracticeMandarin/main/images/char7.png",
+    "https://raw.githubusercontent.com/neonwuchang/PracticeMandarin/main/images/char8.png"
     ];
 
     // Generate a random index
-    var randomIndex = Math.floor(Math.random() * imageIds.length);
+    var randomIndex = Math.floor(Math.random() * charImages.length);
 
     // Get the image element
     var imageElement = document.getElementById("dynamic-image");

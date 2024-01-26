@@ -1,0 +1,1 @@
+- Animals Quiz on QuizPage: Image of Dog by <a href="https://www.freepik.com/free-photo/portrait-adorable-dog-looking-up_6146976.htm#query=happy%20dog&position=14&from_view=keyword&track=ais&uuid=a526acb5-a7ba-448e-8ca5-58beace89a81">Freepik</a>

@@ -10,8 +10,7 @@ MVP: Simple website to practice Mandarin for beginners
 
  - A new random Chinese character (with meaning) appears on homepage each time it is loaded
      - To add: <Feature> Create a bigger image pool
-     - To do: <Improvement> Move pool from Google Cloud to better alternative
-
+  
  - Practice Quizzes
      -To do: Create Family and Food quizzes
 

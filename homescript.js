@@ -8,15 +8,15 @@
     }
     /*shuffle img on homepage each time*/
     // Array of image IDs
-    var imageIds = [
-    "1aI5l7efpH18GZ7JDO39DiLQ4RYbonRkG",
-    "15_SaT95VKtNUEK7p1XkJJgk9gJT88Omc",
-    "14P85jvBGjyglkizREswf-vEOO7E3h_HG",
-    "1jW2S1s1kli6truHDXksOuT569ldUhK52",
-    "11bs_0IlR-cH11rzgrDSwPbAP6ZOT1POi",
-    "1MMRqFP0bn-7rE8giuV62yTyT57VIWSxv",
-    "1fNTsfHs8-02ZPXBxBqV_PdJoDavP7TTK",
-    "1dq4QcQjjy_40M_cZWSR-LDTTTFslIcZV"
+    var charImages = [
+    "https://github.com/neonwuchang/PracticeMandarin/blob/main/images/char1.png",
+    "https://github.com/neonwuchang/PracticeMandarin/blob/main/images/char2.png",
+    "https://github.com/neonwuchang/PracticeMandarin/blob/main/images/char3.png",
+    "https://github.com/neonwuchang/PracticeMandarin/blob/main/images/char4.png",
+    "https://github.com/neonwuchang/PracticeMandarin/blob/main/images/char5.png",
+    "https://github.com/neonwuchang/PracticeMandarin/blob/main/images/char6.png",
+    "https://github.com/neonwuchang/PracticeMandarin/blob/main/images/char7.png",
+    "https://github.com/neonwuchang/PracticeMandarin/blob/main/images/char8.png"
     ];
 
     // Generate a random index
@@ -26,4 +26,4 @@
     var imageElement = document.getElementById("dynamic-image");
 
     // Set the source of the image to a random image URL
-    imageElement.src = "https://drive.google.com/uc?id=" + imageIds[randomIndex];
+    imageElement.src = charImages[randomIndex];

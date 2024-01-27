@@ -10,7 +10,7 @@
             font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
         h1 {
-            font-size: 20px;
+            font-size: 28px;
             font-weight: bold;
             margin-bottom: 5px;
             
@@ -35,9 +35,9 @@
             border-radius: 10px;
             margin: 10px;
             cursor: pointer;
-            min-height: 100px;
+            min-height: 150px;
             color: rgb(14, 0, 0);
-            font-size: 18px;
+            font-size: 22px;
             font-weight: bold;
             box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
             transition: transform 0.3s ease
@@ -50,14 +50,15 @@
     </style>
 </head>
 <body>
-   <h1> Pick a topic to practice Mandarin with a fun quiz!</h1>
+    <div class="container">
+    <h1> Pick a topic to practice Mandarin with a fun quiz!</h1>
         <div class="grid">
             <div class="button" onclick="openAnimals()">Animals</div>
             <div class="button" onclick="openNumbers()">Numbers</div>
             <div class="button">Food</div>
             <div class="button">Countries</div>
         </div>
-
+    </div>
     <script>
         /* Open quiz*/
         function openAnimals() {

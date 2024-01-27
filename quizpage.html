@@ -14,14 +14,14 @@
             font-weight: bold;
             margin-bottom: 5px;
             justify-content: center;
-            text-shadow: 2px 2px #ff0000;
+            text-shadow: 5px 5px #ff0000;
         }
-        .container {
-            display: flex;
-            justify-content: center;
-            align-items: center;           
+        .grid1 {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 10px;
         }
-        .grid {
+        .grid2 {
             display: grid;
             grid-template-columns: repeat(1, 1fr);
             gap: 10px;
@@ -50,9 +50,9 @@
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="grid1">
     <h1> Pick a Topic to Practice Mandarin with a Fun Quiz!</h1>
-        <div class="grid">
+        <div class="grid2">
             <div class="button" onclick="openAnimals()">Animals</div>
             <div class="button" onclick="openNumbers()">Numbers</div>
             <div class="button">Food</div>

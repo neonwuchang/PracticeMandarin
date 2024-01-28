@@ -4,7 +4,15 @@ body {
     padding: 0;
     background-image: radial-gradient(circle, #f23d73, #0c0606);
 }
-
+.h1{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+.h2{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    margin-left: 130px
+}
 .container{
         display: flex;
         flex-direction: column;
@@ -85,13 +93,22 @@ body {
     
 /* Smaller devices (400px and less) */
   @media (max-width:400px) {
+  .h1{
+    color: rgb(255, 255, 255);
+    font-weight: 54;
+  }
+  .h2{
+     color: rgb(255, 255, 255);
+     font-weight: 54;
+     margin-left: 60px
+  }
   .flip-card {
-        width: 400px;
+        width: 200px;
         height: 150px;
     }
     
     .flip-card-inner {
-        width: 400px;
+        width: 200px;
         height: 150px;
         border-radius: 25px;
     }

@@ -7,11 +7,12 @@ body {
 .h1{
     color: rgb(255, 255, 255);
     font-weight: 900;
+    text-align: center
 }
 .h2{
     color: rgb(255, 255, 255);
     font-weight: 700;
-    margin-left: 130px
+    text-align: center
 }
 .container{
         display: flex;
@@ -100,7 +101,6 @@ body {
   .h2{
      color: rgb(255, 255, 255);
      font-size: 42;
-     margin-left: 60px
   }
   .flip-card {
         width: 200px;

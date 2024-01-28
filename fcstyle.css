@@ -83,5 +83,31 @@ body {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add box shadow on hover */
     }
     
+/* Smaller devices (400px and less) */
+  @media (max-width:400px) {
+  .flip-card {
+        width: 400px;
+        height: 150px;
+    }
+    
+    .flip-card-inner {
+        width: 400px;
+        height: 150px;
+        border-radius: 25px;
+    }
 
+    .term{
+      font-size: 42px;
+    }
+    
+    .definition {
+      font-size: 32px;
+    }
+
+    .button {
+        padding: 5px 10px;
+        width: 100px;
+        margin: 10px 5px;
+    }
+  }
   

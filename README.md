@@ -15,7 +15,8 @@ MVP: Simple website to practice Mandarin for beginners
      -To do: Create Family and Food quizzes
 
 Goal: Create a fully fledged host-able website
-Credits: [Click here](Attributions-Credits.md)
+
+Image and Other Resource Credits: [Click here](Attributions-Credits.md)
 ## Current Look:
 
 ![Image of homepage for bigger screen, with annotations about features](project_images/homepage1.png)
